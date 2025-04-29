@@ -59,7 +59,7 @@ logger.error("This is an error message")     // ❌ For serious problems that ne
 {"timestamp":"2024-03-21 10:30:45.125","level":"2","file":"MyFile.swift","function":"myFunction","message":"This is an error message"}
 ```
 
-### Logging to File and Remote
+### Logging to File and Remote for LogAnalysis
 
 RVNLogger can log to the console, a file, and/or a remote HTTP endpoint simultaneously. Just set the appropriate properties in your configuration:
 
